@@ -47,9 +47,9 @@ var (
 	// initial nodes count is fixed to three, their addresses are also fixed
 	// these are the initial member nodes of the Raft cluster.
 	addresses = []string{
-		"localhost:63001",
-		"localhost:63002",
-		"localhost:63003",
+		"0.0.0.0:63001",
+		"0.0.0.0:63002",
+		"0.0.0.0:63003",
 	}
 	errNotMembershipChange = errors.New("not a membership change request")
 )
